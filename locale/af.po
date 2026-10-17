@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2025-05-25 15:00+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -526,6 +526,9 @@ msgstr ""
 msgid "BEYOND_THE_CELL"
 msgstr ""
 
+msgid "BEYOND_THE_MICROBE"
+msgstr ""
+
 msgid "BIG_IRON_CHUNK"
 msgstr ""
 
@@ -770,6 +773,9 @@ msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tie
 msgid "CELL_TYPE_NAME"
 msgstr ""
 
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr ""
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr ""
 
@@ -954,16 +960,16 @@ msgstr ""
 msgid "COLLISION_SHAPE"
 msgstr ""
 
+#, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "3D redakteurder"
+
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr ""
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "3D redakteurder"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "3D redakteurder"
 
 msgid "COLOUR"
 msgstr ""
@@ -1470,6 +1476,27 @@ msgstr ""
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr ""
 
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr ""
+
 msgid "CREDITS"
 msgstr ""
 
@@ -1939,7 +1966,31 @@ msgid "EDITOR_TUTORIAL_MICROBE_EDITOR_SPECIALIZATION"
 msgstr "3D redakteurder"
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr "3D redakteurder"
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr "3D redakteurder"
 
 #, fuzzy
@@ -2977,6 +3028,17 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "3D redakteurder"
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 
@@ -3006,6 +3068,13 @@ msgstr ""
 
 msgid "JUNE"
 msgstr ""
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "3D redakteurder"
 
 msgid "KEEP_MIGRATION"
 msgstr ""
@@ -3905,6 +3974,14 @@ msgstr ""
 msgid "MICROBIAL_MASSACRE"
 msgstr ""
 
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "3D redakteurder"
+
 msgid "MICRO_BORG"
 msgstr ""
 
@@ -4791,10 +4868,6 @@ msgstr ""
 msgid "PAN_CAMERA_UP"
 msgstr ""
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "en"
-
 msgid "PAST_DEVELOPERS"
 msgstr ""
 
@@ -4879,6 +4952,13 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr ""
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "3D redakteurder"
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr ""
 
@@ -4953,6 +5033,19 @@ msgid "PLAYER_DUPLICATE"
 msgstr ""
 
 msgid "PLAYER_EXTINCT"
+msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "3D redakteurder"
+
+msgid "PLAYER_NAME_TOO_LONG"
 msgstr ""
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5149,6 +5242,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "3D redakteurder"
 
 #, fuzzy
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -5372,6 +5469,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -5849,6 +5950,26 @@ msgstr ""
 #, fuzzy
 msgid "SPECIALIZATION_COLON"
 msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "Beweeg na die wakker stadium. Besikbaar na jy genoeg brain krag het (tiepe selle met \"axons\")."
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "3D redakteurder"
 
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
 msgstr ""
@@ -6718,6 +6839,28 @@ msgstr ""
 msgid "TYPE_COLON"
 msgstr ""
 
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr ""
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "3D redakteurder"
+
+msgid "ULTIMATE_COLONY"
+msgstr ""
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "3D redakteurder"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr ""
 
@@ -6862,6 +7005,12 @@ msgid "UNSAVED_CHANGE_WARNING"
 msgstr ""
 
 msgid "UNTITLED"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
 msgstr ""
 
 msgid "UPGRADE_CILIA_PULL"
@@ -7531,6 +7680,10 @@ msgstr "3D redakteurder"
 #, fuzzy
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr "3D beweging"
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
 msgstr ""
@@ -8751,6 +8904,13 @@ msgstr ""
 msgid "YOUTUBE_TOOLTIP"
 msgstr ""
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "3D redakteurder"
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 
@@ -8765,6 +8925,10 @@ msgstr ""
 
 msgid "ZOOM_OUT"
 msgstr ""
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "en"
 
 #, fuzzy
 #~ msgid "DOUBLE_SPEED_TOGGLE_TOOLTIP"

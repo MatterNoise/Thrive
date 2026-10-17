@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2023-02-06 07:13+0000\n"
 "Last-Translator: jan-sopi <jansopi303@genocide.fun>\n"
 "Language-Team: Toki Pona <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tok/>\n"
@@ -571,6 +571,9 @@ msgstr ""
 msgid "BEYOND_THE_CELL"
 msgstr ""
 
+msgid "BEYOND_THE_MICROBE"
+msgstr ""
+
 msgid "BIG_IRON_CHUNK"
 msgstr ""
 
@@ -818,6 +821,9 @@ msgstr "kama lon tenpo pi kama sona. open la sina jo e sona mute."
 msgid "CELL_TYPE_NAME"
 msgstr ""
 
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr ""
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr ""
 
@@ -1021,16 +1027,16 @@ msgid "COLLISION_SHAPE"
 msgstr ""
 
 #, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "PALI PI WAWA SIKE LI LILI!"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "PALI PI WAWA SIKE LI LILI!"
+
+#, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "PALI PI WAWA SIKE LI LILI!"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "PALI PI WAWA SIKE LI LILI!"
 
 msgid "COLOUR"
 msgstr ""
@@ -1544,6 +1550,28 @@ msgstr ""
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr ""
 
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr "jan pi pali sitelen:"
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr ""
+
 msgid "CREDITS"
 msgstr ""
 
@@ -2017,7 +2045,31 @@ msgid "EDITOR_TUTORIAL_MICROBE_EDITOR_SPECIALIZATION"
 msgstr "pali pi kon ilo kepeken kon ala"
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr "pali pi kon ilo kepeken kon ala"
 
 #, fuzzy
@@ -3122,6 +3174,17 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "pali pi kon ilo kepeken kon ala"
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 
@@ -3151,6 +3214,13 @@ msgstr ""
 
 msgid "JUNE"
 msgstr ""
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 msgid "KEEP_MIGRATION"
 msgstr ""
@@ -4158,6 +4228,14 @@ msgstr ""
 msgid "MICROBIAL_MASSACRE"
 msgstr ""
 
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
 msgid "MICRO_BORG"
 msgstr ""
 
@@ -5053,9 +5131,6 @@ msgstr ""
 msgid "PAN_CAMERA_UP"
 msgstr ""
 
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr ""
-
 msgid "PAST_DEVELOPERS"
 msgstr ""
 
@@ -5142,6 +5217,13 @@ msgstr ""
 
 msgid "PERCENTAGE_VALUE"
 msgstr ""
+
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 #, fuzzy
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
@@ -5232,6 +5314,19 @@ msgid "PLAYER_DUPLICATE"
 msgstr ""
 
 msgid "PLAYER_EXTINCT"
+msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "ilo ante 3D"
+
+msgid "PLAYER_NAME_TOO_LONG"
 msgstr ""
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5434,6 +5529,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
 
 #, fuzzy
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -5659,6 +5758,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "pali e nasin nena sin"
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -6137,6 +6240,26 @@ msgstr ""
 #, fuzzy
 msgid "SPECIALIZATION_COLON"
 msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "(nanpa ni: sike ante li kama ante kepeken tenpo seme)"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
 msgstr ""
@@ -7028,6 +7151,29 @@ msgstr ""
 msgid "TYPE_COLON"
 msgstr ""
 
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr ""
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "jan pi pali sitelen:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "jan pi pali sitelen:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr ""
 
@@ -7175,6 +7321,12 @@ msgid "UNSAVED_CHANGE_WARNING"
 msgstr ""
 
 msgid "UNTITLED"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
 msgstr ""
 
 msgid "UPGRADE_CILIA_PULL"
@@ -7894,6 +8046,10 @@ msgstr "pali pi kon ilo kepeken kon"
 #, fuzzy
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "pali pi kon ilo kepeken kon"
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr "tawa 3D"
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
 msgstr ""
@@ -9252,6 +9408,13 @@ msgstr ""
 
 msgid "YOUTUBE_TOOLTIP"
 msgstr ""
+
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2026-10-02 07:58+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -569,6 +569,10 @@ msgstr "Лучше Быть Вместе"
 msgid "BEYOND_THE_CELL"
 msgstr "За Пределами Клетки"
 
+#, fuzzy
+msgid "BEYOND_THE_MICROBE"
+msgstr "За Пределами Клетки"
+
 msgid "BIG_IRON_CHUNK"
 msgstr "Большой кусок железа"
 
@@ -824,6 +828,10 @@ msgstr ""
 msgid "CELL_TYPE_NAME"
 msgstr "Название вида клеток"
 
+#, fuzzy
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr "Выбранное имя файла ({0}) уже существует. Перезаписать?"
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr "Примечания к изменениям слишком длинные"
 
@@ -1027,16 +1035,16 @@ msgstr "Прибрежный"
 msgid "COLLISION_SHAPE"
 msgstr "Создавать сущности с коллизией"
 
+#, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "Сила Поворота"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "Сила Поворота"
+
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "Эта вкладка позволяет установить приоритет, в коем будут расти клетки колонии, где первая клетка в очереди - корневая. Вы можете использовать это, чтобы отдать приоритет росту более важных клеток или обеспечить баланс между производством и потреблением в колонии."
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "Сила Поворота"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "Сила Поворота"
 
 msgid "COLOUR"
 msgstr "Окраска"
@@ -1570,6 +1578,32 @@ msgstr "Создание..."
 
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr "Создание объектов из сохранения"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr "Тип Токсина:"
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr "Создать Новый Тип Клетки"
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr "Вы можете создать новый вид клеток благодаря размножению существующих и дачу им нового имени. Виды клеток могут быть модифицированы для приспособления к определённой роли. При редактировании вида все представители будут модифицированы так же, как и ваш тип клеток."
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr "Создать Новое Сохранение"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr "Вы можете создать новый вид клеток благодаря размножению существующих и дачу им нового имени. Виды клеток могут быть модифицированы для приспособления к определённой роли. При редактировании вида все представители будут модифицированы так же, как и ваш тип клеток."
 
 msgid "CREDITS"
 msgstr "Титры"
@@ -2127,7 +2161,73 @@ msgstr ""
 "\n"
 "Попробуйте поставить органеллу, уже представленную в вашей клетке, для повышения Специализации, или же иной тип, уже для [i]понижения[/i] Специализации."
 
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr ""
+"В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
+"\n"
+"Однако, система дополнена бонусами за соседство ячеек. А на экране специализации теперь отображается [u]средняя специализация[/u] по всему плану тела.\n"
+"\n"
+"Когда клетки одного типа располагаются рядом друг с другом, каждая из них получает [b]дополнительную[/b] специализацию.\n"
+"\n"
+"Попробуйте поставить ячейку рядом с ячейкой того же типа, чтобы увидеть зеленые стрелки, указывающие на бонусы."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr ""
 "В многоклеточных, специализация клеток по-прежнему действует и дает прежние бонусы.\n"
 "\n"
@@ -3213,6 +3313,17 @@ msgstr "Поверхность"
 msgid "INVERTED"
 msgstr "Инвертировать"
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "Лизосома — мембранная органелла, содержащая гидролитические ферменты, которые могут расщеплять разнообразные биологические молекулы. Лизосомы позволяют клетке переваривать поглощённые материалы с помощью эндоцитоза и избавляться от собственных отходов с помощью [b]аутофагии[/b]."
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "Лизосома — мембранная органелла, содержащая гидролитические ферменты, которые могут расщеплять разнообразные биологические молекулы. Лизосомы позволяют клетке переваривать поглощённые материалы с помощью эндоцитоза и избавляться от собственных отходов с помощью [b]аутофагии[/b]."
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 "Вы играете в прототип последующей стадии, включённой в игру.\n"
@@ -3246,6 +3357,15 @@ msgstr "Июль"
 
 msgid "JUNE"
 msgstr "Июнь"
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr ""
+"Не удалось инициализировать клиентскую библиотеку Steam. Функции Steam будут недоступны.\n"
+"Убедитесь что у вас запущен стим со входом в необходимый аккаунт. Пожалуйста, запустите игру напрямую, через свойства>показать локальные файлы, коль ошибка не уходит со временем."
 
 msgid "KEEP_MIGRATION"
 msgstr "Продолжить Миграцию"
@@ -4218,6 +4338,14 @@ msgstr ""
 msgid "MICROBIAL_MASSACRE"
 msgstr "Микробоцид"
 
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "Стадия Макроскопического Организма"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "Эта мембрана имеет прочную стенку из кремнезема. Она может хорошо противостоять общим повреждениям и очень устойчива к физическим повреждениям. Она также требует меньше энергии для поддержания своей формы. Но клетка не может быстро поглощать ресурсы и двигается медленнее."
+
 msgid "MICRO_BORG"
 msgstr "Микро-Борг"
 
@@ -5145,10 +5273,6 @@ msgstr "Переместить вправо"
 msgid "PAN_CAMERA_UP"
 msgstr "Переместить вверх"
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "И"
-
 msgid "PAST_DEVELOPERS"
 msgstr "Бывшие Разработчики"
 
@@ -5236,6 +5360,13 @@ msgstr "Ожидание Процесса Завершения Эндосимб�
 msgid "PERCENTAGE_VALUE"
 msgstr "{0}%"
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "Когда пределы погрешности уменьшены до минимальных значений, и вашим видам нравятся нынешние условия, добавится бонус идеальной адаптации. Он даст преимущество, если вы планируете играть только в одном биоме, а не расширяться."
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr "Когда пределы погрешности уменьшены до минимальных значений, и вашим видам нравятся нынешние условия, добавится бонус идеальной адаптации. Он даст преимущество, если вы планируете играть только в одном биоме, а не расширяться."
 
@@ -5315,6 +5446,21 @@ msgstr "Клонировать Игрока"
 
 msgid "PLAYER_EXTINCT"
 msgstr "Игрок вымер"
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr "Файл сохранения имеет недействительную сцену состояния игры"
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "Необходимо получать урон от радиации, находясь вблизи от радиоактивного куска."
+
+#, fuzzy
+msgid "PLAYER_NAME_TOO_LONG"
+msgstr "Название вида слишком длинное!"
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
 msgstr "Относительно игрока"
@@ -5512,6 +5658,10 @@ msgstr "Достигните 15-го поколения с помощью одн
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr "Достигните поколения {0}/{1} с одним видом по крайней мере на нормальной сложности"
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "Стадия Макроскопического Организма"
 
 msgid "REACH_MULTICELLULAR_STAGE"
 msgstr "Достичь многоклеточной стадии"
@@ -5736,6 +5886,10 @@ msgstr "Повернуть влево"
 
 msgid "ROTATE_RIGHT"
 msgstr "Повернуть вправо"
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Войдите в редактор для модификации видов"
 
 msgid "ROTATION_COLON"
 msgstr "Поворот:"
@@ -6237,6 +6391,26 @@ msgstr "Создать фосфат"
 
 msgid "SPECIALIZATION_COLON"
 msgstr "Специализация:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "Специализация:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "Файл окаменелости не может быть записан"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "Специализация:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "Эта вакуоль будет хранить {0} единиц выбранного соединения"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "Эта вакуоль будет хранить {0} единиц выбранного соединения"
 
 #, fuzzy
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
@@ -7342,6 +7516,30 @@ msgstr "2x"
 msgid "TYPE_COLON"
 msgstr "Тип:"
 
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr "Многоклеточный редактор"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "Целлюлаза позволяет клетке разрушать целлюлозную мембрану. С количеством повышается эффективность."
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "Многоклеточный редактор"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "Имя:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "Липаза позволяет клетке разрушать большинство типов мембран. Ваша клетка уже производит некоторые ферменты без лизосомы, но выбрав этот тип вы повысите эффективность."
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "Имя:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr "Есть непримененные изменения"
 
@@ -7489,6 +7687,13 @@ msgstr ""
 
 msgid "UNTITLED"
 msgstr "Без Имени"
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+#, fuzzy
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
+msgstr "Тип споровых клеток"
 
 msgid "UPGRADE_CILIA_PULL"
 msgstr "Вытягивание ресничек"
@@ -8466,6 +8671,10 @@ msgstr ""
 
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "Нет улучшений."
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr "[b]Melanosomes[/b] — [color=#3796e1][url=thriveopedia:OrganellesRoot]органеллы[/url][/color], которые выполняют [b]Радиосинтез[/b], который улавливает энергию излучения, поглощая её с помощью меланина."
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
 msgstr "Каждый [b]Жгутик[/b] обеспечивает направленную тягу в направлении, противоположном его ориентации. Они также создают частичную тягу в направлениях, близких к прямо противоположному (если быть точным, в тех направлениях, для которых составляющая этого прямо противоположного вектора положительна). Всякий раз, когда [b]Жгутик[/b] активен, он поглощает [thrive:compound type=\"atp\"][/thrive:compound]."
@@ -10289,6 +10498,13 @@ msgstr "Содержимое этой страницы еще не полнос�
 msgid "YOUTUBE_TOOLTIP"
 msgstr "Зайти на наш Ютуб Канал"
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "Липкие внутренности клетки. Цитоплазма - это полужидкое содержимое клетки из смеси ионов, белков и других веществ, которые заполняют внутреннюю часть клетки. Одна из функций, которую она (цитоплазма) выполняет, это [b]гликолиз[/b], преобразование [thrive:compound type=\"glucose\"][/thrive:compound] в [thrive:compound type=\"atp\"][/thrive:compound]. У клеток, в которых отсутствуют органеллы для более продвинутого метаболизма, цитоплазма является основным источником энергии. Она также используется для хранения молекул в клетке и увеличения размера клетки."
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 "Thrive – это проект с открытым исходным кодом.\n"
@@ -10305,6 +10521,10 @@ msgstr "Увеличить масштаб"
 
 msgid "ZOOM_OUT"
 msgstr "Уменьшить масштаб"
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "И"
 
 #~ msgid "ENERGY_BALANCE_TOOLTIP_PRODUCTION_WITH_REQUIREMENT"
 #~ msgstr ""

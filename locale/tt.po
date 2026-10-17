@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2026-01-01 23:54+0000\n"
 "Last-Translator: Alihan Yildiz <aywhy@protonmail.ch>\n"
 "Language-Team: Tatar <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tt/>\n"
@@ -542,6 +542,9 @@ msgstr ""
 msgid "BEYOND_THE_CELL"
 msgstr ""
 
+msgid "BEYOND_THE_MICROBE"
+msgstr ""
+
 msgid "BIG_IRON_CHUNK"
 msgstr ""
 
@@ -780,6 +783,9 @@ msgstr ""
 msgid "CELL_TYPE_NAME"
 msgstr ""
 
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr ""
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr ""
 
@@ -962,16 +968,16 @@ msgstr ""
 msgid "COLLISION_SHAPE"
 msgstr ""
 
+#, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "AI mutatsiya tizlege"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "AI mutatsiya tizlege"
+
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr ""
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "AI mutatsiya tizlege"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "AI mutatsiya tizlege"
 
 msgid "COLOUR"
 msgstr ""
@@ -1468,6 +1474,27 @@ msgstr ""
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr ""
 
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr ""
+
 msgid "CREDITS"
 msgstr ""
 
@@ -1928,7 +1955,25 @@ msgstr ""
 msgid "EDITOR_TUTORIAL_MICROBE_EDITOR_SPECIALIZATION"
 msgstr ""
 
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr ""
+
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr ""
+
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr ""
+
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr ""
+
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr ""
+
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr ""
+
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr ""
 
 msgid "EDIT_MICROBE_FIRST_TIME"
@@ -2945,6 +2990,16 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "Başka gamer bargan vakıtta bu gamer biklәngen"
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 
@@ -2973,6 +3028,12 @@ msgid "JULY"
 msgstr ""
 
 msgid "JUNE"
+msgstr ""
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
 msgstr ""
 
 msgid "KEEP_MIGRATION"
@@ -3848,6 +3909,12 @@ msgstr ""
 msgid "MICROBIAL_MASSACRE"
 msgstr ""
 
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr ""
+
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr ""
+
 msgid "MICRO_BORG"
 msgstr ""
 
@@ -4716,9 +4783,6 @@ msgstr ""
 msgid "PAN_CAMERA_UP"
 msgstr ""
 
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr ""
-
 msgid "PAST_DEVELOPERS"
 msgstr ""
 
@@ -4803,6 +4867,12 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr ""
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr ""
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr ""
 
@@ -4877,6 +4947,18 @@ msgid "PLAYER_DUPLICATE"
 msgstr ""
 
 msgid "PLAYER_EXTINCT"
+msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr ""
+
+msgid "PLAYER_NAME_TOO_LONG"
 msgstr ""
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5071,6 +5153,9 @@ msgid "REACH_GENERATION_15_WITH_A_SPECIES"
 msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
+msgstr ""
+
+msgid "REACH_MACROSCOPIC_STAGE"
 msgstr ""
 
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -5284,6 +5369,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Yaña töymә bәylәүe өstәү"
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -5760,6 +5849,21 @@ msgid "SPAWN_PHOSPHATES"
 msgstr ""
 
 msgid "SPECIALIZATION_COLON"
+msgstr ""
+
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr ""
+
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr ""
+
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr ""
+
+msgid "SPECIALIZED_WEAPONS"
+msgstr ""
+
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
 msgstr ""
 
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
@@ -6608,6 +6712,24 @@ msgstr ""
 msgid "TYPE_COLON"
 msgstr ""
 
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr ""
+
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr ""
+
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr ""
+
+msgid "ULTIMATE_COLONY"
+msgstr ""
+
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr ""
+
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr ""
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr ""
 
@@ -6750,6 +6872,12 @@ msgid "UNSAVED_CHANGE_WARNING"
 msgstr ""
 
 msgid "UNTITLED"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
 msgstr ""
 
 msgid "UPGRADE_CILIA_PULL"
@@ -7390,6 +7518,9 @@ msgid "WIKI_FERROPLAST_STRATEGY"
 msgstr ""
 
 msgid "WIKI_FERROPLAST_UPGRADES"
+msgstr ""
+
+msgid "WIKI_FILEMELANOSOMEICONJPG"
 msgstr ""
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
@@ -8510,6 +8641,12 @@ msgid "YET_TO_BE_IMPLEMENTED_NOTICE"
 msgstr ""
 
 msgid "YOUTUBE_TOOLTIP"
+msgstr ""
+
+msgid "YOU_ANIMAL"
+msgstr ""
+
+msgid "YOU_ANIMAL_DESCRIPTION"
 msgstr ""
 
 msgid "YOU_CAN_MAKE_PULL_REQUEST"

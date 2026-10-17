@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2025-09-24 02:53+0000\n"
 "Last-Translator: Emanuel Gossain <thisisfor33@gmail.com>\n"
 "Language-Team: Croatian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/hr/>\n"
@@ -567,6 +567,9 @@ msgstr ""
 msgid "BEYOND_THE_CELL"
 msgstr ""
 
+msgid "BEYOND_THE_MICROBE"
+msgstr ""
+
 msgid "BIG_IRON_CHUNK"
 msgstr ""
 
@@ -815,6 +818,9 @@ msgstr "Kreni u fazu buđenja. Moguće kada imaš dovoljno moždane snage (vrsta
 msgid "CELL_TYPE_NAME"
 msgstr ""
 
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr ""
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr ""
 
@@ -1016,23 +1022,23 @@ msgid "COLLISION_SHAPE"
 msgstr ""
 
 #, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr ""
+"Agresivni mikrobi će loviti plijen na većim udaljenostima\n"
+"i veća je šansa da će se braniti kada su napadnuti.\n"
+"Mirni mikrobi neće se baviti s drugima na većim udaljenostima\n"
+"i manja je šansa da će koristiti toksine protiv predatora."
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr ""
+"Agresivni mikrobi će loviti plijen na većim udaljenostima\n"
+"i veća je šansa da će se braniti kada su napadnuti.\n"
+"Mirni mikrobi neće se baviti s drugima na većim udaljenostima\n"
+"i manja je šansa da će koristiti toksine protiv predatora."
+
+#, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
-msgstr ""
-"Agresivni mikrobi će loviti plijen na većim udaljenostima\n"
-"i veća je šansa da će se braniti kada su napadnuti.\n"
-"Mirni mikrobi neće se baviti s drugima na većim udaljenostima\n"
-"i manja je šansa da će koristiti toksine protiv predatora."
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr ""
-"Agresivni mikrobi će loviti plijen na većim udaljenostima\n"
-"i veća je šansa da će se braniti kada su napadnuti.\n"
-"Mirni mikrobi neće se baviti s drugima na većim udaljenostima\n"
-"i manja je šansa da će koristiti toksine protiv predatora."
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
 msgstr ""
 "Agresivni mikrobi će loviti plijen na većim udaljenostima\n"
 "i veća je šansa da će se braniti kada su napadnuti.\n"
@@ -1546,6 +1552,28 @@ msgstr ""
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr ""
 
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr "Umjetnik:"
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr ""
+
 msgid "CREDITS"
 msgstr ""
 
@@ -2042,7 +2070,61 @@ msgstr ""
 "Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr ""
+"Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
+"\n"
+"Šesterokutna ćelija u središtu vašeg zaslona je vaša stanica, koja se sastoji od jednog dijela citoplazme.\n"
+"\n"
+"Za nastavak, odaberite novi dio s lijeve ploče. Zatim, lijevom tipkom miša kliknite pokraj postojeće ćelije da biste ga postavili. Možete rotirati dijelove pomoću [thrive:input]e_rotate_left[/thrive:input] i [thrive:input]e_rotate_right[/thrive:input]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr ""
 "Ovo je uređivač stanica u kojem možete razvijati svoju vrstu trošeći bodove mutacije (MP). U svakoj generaciji uvijek ćete imati 100 MP za potrošiti, stoga nemojte štedjeti!\n"
 "\n"
@@ -3129,6 +3211,17 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "Anaerobna fiksacija dušika"
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 
@@ -3158,6 +3251,13 @@ msgstr ""
 
 msgid "JUNE"
 msgstr ""
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
 
 msgid "KEEP_MIGRATION"
 msgstr ""
@@ -4187,6 +4287,14 @@ msgid "MICROBIAL_MASSACRE"
 msgstr "Stadij mikroba"
 
 #, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "Stadij mikroba"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
+
+#, fuzzy
 msgid "MICRO_BORG"
 msgstr "Stadij mikroba"
 
@@ -5120,10 +5228,6 @@ msgstr ""
 msgid "PAN_CAMERA_UP"
 msgstr ""
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "i"
-
 msgid "PAST_DEVELOPERS"
 msgstr ""
 
@@ -5219,6 +5323,13 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr ""
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr ""
 
@@ -5294,6 +5405,31 @@ msgid "PLAYER_DUPLICATE"
 msgstr ""
 
 msgid "PLAYER_EXTINCT"
+msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr ""
+"[b]Stadij[/b]\n"
+"  Mikrob\n"
+"[b]Tip membrane[/b]\n"
+"  {0}\n"
+"[b]Krutost membrane[/b]\n"
+"  {1}\n"
+"[b]Osnovna brzina[/b]\n"
+"  {2}\n"
+"[b]Osnovna brzina rotacije[/b]\n"
+"  {3}\n"
+"[b]Osnova veličina, u ćelijama[/b]\n"
+"  {4}"
+
+msgid "PLAYER_NAME_TOO_LONG"
 msgstr ""
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5496,6 +5632,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "Stadij mikroba"
 
 #, fuzzy
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -5756,6 +5896,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Dodaj novu postavku tipke"
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -6259,6 +6403,24 @@ msgstr ""
 
 msgid "SPECIALIZATION_COLON"
 msgstr ""
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "Kreni u fazu buđenja. Moguće kada imaš dovoljno moždane snage (vrsta tkiva s aksionima)"
+
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr ""
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "Kreni u fazu buđenja. Moguće kada imaš dovoljno moždane snage (vrsta tkiva s aksionima)"
+
+msgid "SPECIALIZED_WEAPONS"
+msgstr ""
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
 
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
 msgstr ""
@@ -7331,6 +7493,30 @@ msgstr ""
 msgid "TYPE_COLON"
 msgstr ""
 
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr "Višestanični uređivač"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "Višestanični uređivač"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "Višestanični uređivač"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "Umjetnik:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "Umjetnik:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr ""
 
@@ -7475,6 +7661,12 @@ msgid "UNSAVED_CHANGE_WARNING"
 msgstr ""
 
 msgid "UNTITLED"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
 msgstr ""
 
 msgid "UPGRADE_CILIA_PULL"
@@ -8190,6 +8382,22 @@ msgstr "Stadij mikroba"
 
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr ""
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr ""
+"[b]Stadij[/b]\n"
+"  Mikrob\n"
+"[b]Tip membrane[/b]\n"
+"  {0}\n"
+"[b]Krutost membrane[/b]\n"
+"  {1}\n"
+"[b]Osnovna brzina[/b]\n"
+"  {2}\n"
+"[b]Osnovna brzina rotacije[/b]\n"
+"  {3}\n"
+"[b]Osnova veličina, u ćelijama[/b]\n"
+"  {4}"
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
 msgstr ""
@@ -9562,6 +9770,13 @@ msgstr ""
 msgid "YOUTUBE_TOOLTIP"
 msgstr ""
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "Anaerobna fiksacija dušika"
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 
@@ -9579,6 +9794,10 @@ msgstr ""
 
 msgid "ZOOM_OUT"
 msgstr "Povećaj"
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "i"
 
 #, fuzzy
 #~ msgid "DOUBLE_SPEED_TOGGLE_TOOLTIP"

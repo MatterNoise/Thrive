@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2026-05-22 15:37+0000\n"
 "Last-Translator: William <William.berger@outlook.be>\n"
 "Language-Team: Dutch (Belgium) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nl_BE/>\n"
@@ -585,6 +585,10 @@ msgstr "Beter Samen"
 msgid "BEYOND_THE_CELL"
 msgstr "Meer dan de cel"
 
+#, fuzzy
+msgid "BEYOND_THE_MICROBE"
+msgstr "Meer dan de cel"
+
 msgid "BIG_IRON_CHUNK"
 msgstr "Groot Brok IJzer"
 
@@ -834,6 +838,10 @@ msgstr "Pauzeer het spel"
 msgid "CELL_TYPE_NAME"
 msgstr "Celtypenaam"
 
+#, fuzzy
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr "De gekozen bestandsnaam ({0}) bestaat al. Wil je dit overschrijven?"
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr "Veranderingsnotities zijn te lang"
 
@@ -1040,16 +1048,16 @@ msgid "COLLISION_SHAPE"
 msgstr ""
 
 #, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "Totale populatie:"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "Totale populatie:"
+
+#, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "{0} bevolking veranderd met {1} door: {2}"
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "Totale populatie:"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "Totale populatie:"
 
 msgid "COLOUR"
 msgstr "Kleur"
@@ -1615,6 +1623,32 @@ msgstr "Aan het maken..."
 
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr "Maak objecten vanuit het opslagbestand"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr "HP:"
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr "Maak Een Nieuw Celtype"
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr "Mijn SuperSaaie Mod"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr "Maak Een Nieuw Opgeslagen bestand"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr "Mijn SuperSaaie Mod"
 
 msgid "CREDITS"
 msgstr "Dank"
@@ -2212,7 +2246,67 @@ msgstr ""
 "Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr ""
+"Welkom bij de Microbe Editor.\n"
+"Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
+"\n"
+"In dit tabblad kan je een verslag zien van welke soorten er bestaan, waar en wat hun populaties zijn. Je kan ook omgevingsveranderingen zien bovenaan.\n"
+"\n"
+"Om naar het volgende tabblad te gaan druk je op de volgende knop rechts onder."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr ""
 "Welkom bij de Microbe Editor.\n"
 "Hier kan je zien wat er is gebeurd sinds het begin van het spel of wanneer je het laatste in de editor was. Dan kan je hier ook aanpassingen maken aan je soort.\n"
@@ -3440,6 +3534,17 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "Metabolosomen zijn clusters van proteïnen verpakt in eiwitomhulsels. Ze zijn in staat om veel sneller glucose om te zetten in ATP dan cytoplasma, dit door middel van een proces genaamd aerobe respiratie. Het heeft echter wel zuurstof nodig om te functioneren en lagere zuurstofniveaus in de omgeving vertragen dus de ATP-productie. Omdat de metabolosomen direct in het cytoplasma zijn gesuspendeerd, voert de omringende vloeistof enige glycolyse uit."
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "Metabolosomen zijn clusters van proteïnen verpakt in eiwitomhulsels. Ze zijn in staat om veel sneller glucose om te zetten in ATP dan cytoplasma, dit door middel van een proces genaamd aerobe respiratie. Het heeft echter wel zuurstof nodig om te functioneren en lagere zuurstofniveaus in de omgeving vertragen dus de ATP-productie. Omdat de metabolosomen direct in het cytoplasma zijn gesuspendeerd, voert de omringende vloeistof enige glycolyse uit."
+
 #, fuzzy
 msgid "IN_PROTOTYPE"
 msgstr "Protanope (Rood-Groen)"
@@ -3473,6 +3578,13 @@ msgstr "Juli"
 
 msgid "JUNE"
 msgstr "Juni"
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "Het upgraden van de geselecteerde save is gefaald door de volgende error:"
 
 #, fuzzy
 msgid "KEEP_MIGRATION"
@@ -4539,6 +4651,14 @@ msgid "MICROBIAL_MASSACRE"
 msgstr "Microbestadium"
 
 #, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "Microbestadium"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "Dit membraan heeft een sterke wand van siliciumdioxide. Het kan algemene schade goed weerstaan en is zeer resistent tegen fysieke schade. Het heeft ook minder energie nodig om zijn vorm te behouden. Echter, het vertraagt de cel met een grote factor en de cel absorbeert stoffen minder snel."
+
+#, fuzzy
 msgid "MICRO_BORG"
 msgstr "Microbestadium"
 
@@ -5558,10 +5678,6 @@ msgstr "Beweeg camera naar rechts"
 msgid "PAN_CAMERA_UP"
 msgstr "Beweeg camera naar boven"
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "en"
-
 msgid "PAST_DEVELOPERS"
 msgstr "Eerdere ontwikkelaars"
 
@@ -5662,6 +5778,13 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr "{0}%"
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "Wanneer de tolerantiebereiken op de minimale waarden worden ingesteld en je soort de huidige omstandigheden perfect vindt, wordt er een aangepaste bonus toegevoegd. Dit geeft jou een voordeel als je in één enkele zone wilt spelen in plaats van je te verspreiden."
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr "Wanneer de tolerantiebereiken op de minimale waarden worden ingesteld en je soort de huidige omstandigheden perfect vindt, wordt er een aangepaste bonus toegevoegd. Dit geeft jou een voordeel als je in één enkele zone wilt spelen in plaats van je te verspreiden."
 
@@ -5744,6 +5867,21 @@ msgstr "Duplicaat speler"
 
 msgid "PLAYER_EXTINCT"
 msgstr "Speler is uitgestorven"
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr "Opgeslagen bestand heeft ongeldige \"game state scene\""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "Een cel heeft een nucleus nodig om lysosomen te evolueren."
+
+#, fuzzy
+msgid "PLAYER_NAME_TOO_LONG"
+msgstr "Soortnaam is te lang!"
 
 #, fuzzy
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5964,6 +6102,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "Microbestadium"
 
 #, fuzzy
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -6216,6 +6358,10 @@ msgstr "Draaien naar links"
 
 msgid "ROTATE_RIGHT"
 msgstr "Draaien naar rechts"
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Voeg een nieuwe sneltoets toe"
 
 #, fuzzy
 msgid "ROTATION_COLON"
@@ -6769,6 +6915,26 @@ msgstr "Fosfaat spawnen"
 #, fuzzy
 msgid "SPECIALIZATION_COLON"
 msgstr "Totale populatie:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "Totale populatie:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "Het upgraden van de geselecteerde save is gefaald door de volgende error:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "Totale populatie:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "De vacuole zal {0} eenheden van de geselecteerde stof opslaan"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "De vacuole zal {0} eenheden van de geselecteerde stof opslaan"
 
 #, fuzzy
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
@@ -7932,6 +8098,30 @@ msgstr "2x"
 msgid "TYPE_COLON"
 msgstr "HP:"
 
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr "Meercellige bewerker"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "De vacuole is een intern membraanorganel dat gebruikt wordt voor opslag in de cel. Ze bestaan uit meerdere vesikels, kleinere membraanstructuren vaak gebruikt in cellen voor opslag, die samengesmolten zijn. Het is gevuld met water dat gebruikt wordt om moleculen, enzymen, vaste stoffen en andere substanties op te slaan. Hun vorm is veranderlijk en kan variëren tussen cellen."
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "Meercellige bewerker"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "Grootte:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "Grootte:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr "Er zijn niet toegepaste aanpassingen"
 
@@ -8100,6 +8290,13 @@ msgstr ""
 
 msgid "UNTITLED"
 msgstr "Naamloos"
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+#, fuzzy
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
+msgstr "Maak Een Nieuw Celtype"
 
 msgid "UPGRADE_CILIA_PULL"
 msgstr ""
@@ -8878,6 +9075,10 @@ msgstr "De thermoplast is een door twee membranen omsloten celorganel dat warmte
 #, fuzzy
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "De thermoplast is een door twee membranen omsloten celorganel dat warmtegevoelige pigmenten bevat, op elkaar gestapeld in een membraanzak. Het is een prokaryoot die door zijn eukaryotische gastheer geabsorbeerd is voor diens gebruik. De pigmenten in de thermoplast zijn in staat om de energie van hitteverschillen in de omgeving te gebruiken om glucose uit water en gasvormige koolstofdioxide te produceren in een proces dat thermosyntese heet. De snelheid van de glucoseproductie hangt af van de koolstofdioxideconcentratie en de temperatuur."
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr "Metabolosomen zijn clusters van proteïnen verpakt in eiwitomhulsels. Ze zijn in staat om veel sneller glucose om te zetten in ATP dan cytoplasma, dit door middel van een proces genaamd aerobe respiratie. Het heeft echter wel zuurstof nodig om te functioneren en lagere zuurstofniveaus in de omgeving vertragen dus de ATP-productie. Omdat de metabolosomen direct in het cytoplasma zijn gesuspendeerd, voert de omringende vloeistof enige glycolyse uit."
 
 #, fuzzy
 msgid "WIKI_FLAGELLUM_EFFECTS"
@@ -10340,6 +10541,13 @@ msgstr "Moet nog toegevoegd worden."
 msgid "YOUTUBE_TOOLTIP"
 msgstr "Bezoek ons YouTube kanaal"
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 "Thrive is een open source-project.\n"
@@ -10360,6 +10568,10 @@ msgstr "Inzoomen"
 
 msgid "ZOOM_OUT"
 msgstr "Uitzoomen"
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "en"
 
 #, fuzzy
 #~ msgid "ENERGY_BALANCE_TOOLTIP_PRODUCTION_WITH_REQUIREMENT"

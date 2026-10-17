@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2026-01-08 20:20+0000\n"
 "Last-Translator: khalid <khalid50540@gmail.com>\n"
 "Language-Team: Arabic <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ar/>\n"
@@ -565,6 +565,10 @@ msgstr "معا نحو الافضل"
 msgid "BEYOND_THE_CELL"
 msgstr "تجاوز منظور الخلية"
 
+#, fuzzy
+msgid "BEYOND_THE_MICROBE"
+msgstr "تجاوز منظور الخلية"
+
 msgid "BIG_IRON_CHUNK"
 msgstr "كتلة حديد كبيرة"
 
@@ -823,6 +827,9 @@ msgstr "استمر إلا مرحلة الاستيقاظ. يصبح متاحًا �
 msgid "CELL_TYPE_NAME"
 msgstr ""
 
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr ""
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr ""
 
@@ -1014,16 +1021,16 @@ msgid "COLLISION_SHAPE"
 msgstr ""
 
 #, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "{0} الاستهلاك"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "{0} الاستهلاك"
+
+#, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "(يقتصر الأجزاء والقدرات على ما في الحياة كما نعرفها فقط)"
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "{0} الاستهلاك"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "{0} الاستهلاك"
 
 msgid "COLOUR"
 msgstr "اللون"
@@ -1533,6 +1540,27 @@ msgstr ""
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr ""
 
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr ""
+
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr ""
+
 msgid "CREDITS"
 msgstr ""
 
@@ -2028,7 +2056,31 @@ msgid "EDITOR_TUTORIAL_MICROBE_EDITOR_SPECIALIZATION"
 msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr "بمجرد الانتهاء من الابتلاع ، أي أشياء يتم التقاطها ستبقى داخل الغشاء ليتم هضمها. سيتم دائمًا طرد الأشياء غير القابلة للهضم ، لذا تأكد من أن لديك الطفرات اللازمة التي تمكن من معالجتها أولاً. تساعد الإنزيمات في الهضم ويتم توفيرها بواسطة الليزوزوم ؛ قم بتطوير هذه العضية لجعل عملية الهضم أكثر كفاءة."
 
 #, fuzzy
@@ -3108,6 +3160,27 @@ msgstr ""
 msgid "INVERTED"
 msgstr ""
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr ""
+"ابحث عن قطرات في مقياس ضوء الشمس على لوحة البيئة.\n"
+"\n"
+"يحل الليل عندما تظلم البيئة.\n"
+"التركيب الضوئي غير فعال خلال الليل.\n"
+"لذا تأكد من أنك تملك مدخرات كافية من أجل النجاة في الليل."
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr ""
+"ابحث عن قطرات في مقياس ضوء الشمس على لوحة البيئة.\n"
+"\n"
+"يحل الليل عندما تظلم البيئة.\n"
+"التركيب الضوئي غير فعال خلال الليل.\n"
+"لذا تأكد من أنك تملك مدخرات كافية من أجل النجاة في الليل."
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 
@@ -3138,6 +3211,13 @@ msgstr ""
 
 msgid "JUNE"
 msgstr ""
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "يجب عليك تطبيق تغيراتك لتحميل او الغاء تحميل اي تعديلات شخصية."
 
 #, fuzzy
 msgid "KEEP_MIGRATION"
@@ -4130,6 +4210,19 @@ msgid "MICROBIAL_MASSACRE"
 msgstr "فترة الميكروبات"
 
 #, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "فترة الميكروبات"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr ""
+"ابحث عن قطرات في مقياس ضوء الشمس على لوحة البيئة.\n"
+"\n"
+"يحل الليل عندما تظلم البيئة.\n"
+"التركيب الضوئي غير فعال خلال الليل.\n"
+"لذا تأكد من أنك تملك مدخرات كافية من أجل النجاة في الليل."
+
+#, fuzzy
 msgid "MICRO_BORG"
 msgstr "فترة الميكروبات"
 
@@ -5042,10 +5135,6 @@ msgstr "تحريك الكاميرا الى اليمين"
 msgid "PAN_CAMERA_UP"
 msgstr "تحريك الكاميرا الى الاعلى"
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "و"
-
 msgid "PAST_DEVELOPERS"
 msgstr "المطورين الماضين"
 
@@ -5133,6 +5222,13 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr ""
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "انزيم السليوليز يسمح للخلية بتحليل اغشية السليولوز. كل اضافة من انزيم السليوليز تزيد الفعالية."
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr ""
 
@@ -5208,6 +5304,19 @@ msgid "PLAYER_DUPLICATE"
 msgstr ""
 
 msgid "PLAYER_EXTINCT"
+msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "المصمم ثلاثي الأبعاد"
+
+msgid "PLAYER_NAME_TOO_LONG"
 msgstr ""
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
@@ -5413,6 +5522,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "فترة الميكروبات"
 
 #, fuzzy
 msgid "REACH_MULTICELLULAR_STAGE"
@@ -5640,6 +5753,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "تغيير الإعدادات"
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -6134,6 +6251,26 @@ msgstr ""
 #, fuzzy
 msgid "SPECIALIZATION_COLON"
 msgstr "الوصف:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "الوصف:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "الوصف:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "الوصف:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "الوصف:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "يجب عليك تطبيق تغيراتك لتحميل او الغاء تحميل اي تعديلات شخصية."
 
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
 msgstr ""
@@ -7153,6 +7290,30 @@ msgstr "مرتين"
 msgid "TYPE_COLON"
 msgstr "نوع التخزينة:"
 
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr "فترة الكائنات متعددة الخلايا"
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "انزيم السليوليز يسمح للخلية بتحليل اغشية السليولوز. كل اضافة من انزيم السليوليز تزيد الفعالية."
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "فترة الكائنات متعددة الخلايا"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "الفنان:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "الوصف:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "الفنان:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr "يوجد تغييرات لم تطبق بعد"
 
@@ -7298,6 +7459,12 @@ msgid "UNSAVED_CHANGE_WARNING"
 msgstr ""
 
 msgid "UNTITLED"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
 msgstr ""
 
 msgid "UPGRADE_CILIA_PULL"
@@ -8054,6 +8221,10 @@ msgstr "فترة الميكروبات"
 #, fuzzy
 msgid "WIKI_FERROPLAST_UPGRADES"
 msgstr "عام"
+
+#, fuzzy
+msgid "WIKI_FILEMELANOSOMEICONJPG"
+msgstr "فترة الميكروبات"
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
 msgstr ""
@@ -9495,6 +9666,13 @@ msgstr ""
 msgid "YOUTUBE_TOOLTIP"
 msgstr "زر قناتنا في اليوتيوب"
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "الوصف:"
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 
@@ -9509,6 +9687,10 @@ msgstr "تقريب الشاشة"
 
 msgid "ZOOM_OUT"
 msgstr "ابعاد الشاشة"
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "و"
 
 #, fuzzy
 #~ msgid "DOUBLE_SPEED_TOGGLE_TOOLTIP"

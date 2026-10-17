@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-07 15:41+0300\n"
+"POT-Creation-Date: 2026-10-17 11:11+0300\n"
 "PO-Revision-Date: 2026-10-02 07:58+0000\n"
 "Last-Translator: Argakyan <andrinmueller@hotmail.ch>\n"
 "Language-Team: Alemannic <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/gsw/>\n"
@@ -575,6 +575,9 @@ msgstr ""
 msgid "BEYOND_THE_CELL"
 msgstr ""
 
+msgid "BEYOND_THE_MICROBE"
+msgstr ""
+
 msgid "BIG_IRON_CHUNK"
 msgstr "Grosse Isechlumpe"
 
@@ -830,6 +833,10 @@ msgstr ""
 msgid "CELL_TYPE_NAME"
 msgstr "Zelletypname"
 
+#, fuzzy
+msgid "CELL_TYPE_NAME_ALREADY_EXISTS"
+msgstr "De gwählti Dateiname ({0}) existiert breits. Söll mer überschriibe?"
+
 msgid "CHANGE_DESCRIPTION_IS_TOO_LONG"
 msgstr "Änderigsnotize sind z'lang"
 
@@ -1026,16 +1033,16 @@ msgid "COLLISION_SHAPE"
 msgstr "Erzüügti Entitäte mit Kollisionskonture"
 
 #, fuzzy
+msgid "COLONY_BASE_ROTATION_INCREASE"
+msgstr "{0}-Verbruuch"
+
+#, fuzzy
+msgid "COLONY_BASE_SPEED_INCREASE"
+msgstr "{0}-Verbruuch"
+
+#, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "(Aktivierig beschränkt d'Wachstumsrate; Deaktivierig laht numme d'verfüegbare Stoffe s'Wachstum beiiflusse)"
-
-#, fuzzy
-msgid "COLONY_ROTATION_INCREASE"
-msgstr "{0}-Verbruuch"
-
-#, fuzzy
-msgid "COLONY_SPEED_INCREASE"
-msgstr "{0}-Verbruuch"
 
 msgid "COLOUR"
 msgstr "Farb"
@@ -1570,6 +1577,32 @@ msgstr "Erschaffe..."
 
 msgid "CREATING_OBJECTS_FROM_SAVE"
 msgstr "Objekt us Spiicherstand erschaffe"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_COLON"
+msgstr "Du chasch neui Zelltype zuefüege, idem du bestehendi Type dupliziersch und denn benennsch. Zelltype chönnd modifiziert werde, um sie für verschiedenigi Uufgabe z'spezialisiere. Wenn en Zelletyp g'änderet wird, werdet alli platzierte Zelle vodem Typ aktualisiert."
+
+msgid "CREATURE_SKIN_TYPE_FEATHERS"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_FUR"
+msgstr "Neue Zelltyp erschaffe"
+
+msgid "CREATURE_SKIN_TYPE_PEPPER"
+msgstr ""
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_PLAIN"
+msgstr "Du chasch neui Zelltype zuefüege, idem du bestehendi Type dupliziersch und denn benennsch. Zelltype chönnd modifiziert werde, um sie für verschiedenigi Uufgabe z'spezialisiere. Wenn en Zelletyp g'änderet wird, werdet alli platzierte Zelle vodem Typ aktualisiert."
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SCALES"
+msgstr "Neue Spiicherstand aalegge"
+
+#, fuzzy
+msgid "CREATURE_SKIN_TYPE_SKIN"
+msgstr "Du chasch neui Zelltype zuefüege, idem du bestehendi Type dupliziersch und denn benennsch. Zelltype chönnd modifiziert werde, um sie für verschiedenigi Uufgabe z'spezialisiere. Wenn en Zelletyp g'änderet wird, werdet alli platzierte Zelle vodem Typ aktualisiert."
 
 msgid "CREDITS"
 msgstr "Abspann"
@@ -2139,7 +2172,73 @@ msgstr ""
 "Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
 
 #, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_ACTOMYOSIN"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_BODY_PLAN_LAYOUT"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_CELL_DUPLICATION"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_CELL_EDITOR"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_INTRO"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
 msgid "EDITOR_TUTORIAL_MULTICELLULAR_EDITOR_SPECIALIZATION"
+msgstr ""
+"Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
+"\n"
+"En [b]Zellkern[/b] tuet fortgschritteni Organelle freischalte, sowie [b]Bindemittel[/b] was es diir erlaubt dich mit andere Zelle us de gliiche Spezies z'verbinde und [b]multizellulär[/b] z'werde.\n"
+"\n"
+"Versuechs en [b]Nukleus[/b] z'platziere um das Tutorial z'schlüüse.\n"
+"\n"
+"Wenn dini Zelle nonig parat isch für en Zellkern, chasch de [b]rückgängig mache[/b] chnopf verwende um de Nukleus [u]rückgänig z'mache[/u]."
+
+#, fuzzy
+msgid "EDITOR_TUTORIAL_MULTICELLULAR_MACROSCOPIC_REQUIREMENTS"
 msgstr ""
 "Um wiiter z'cho muesch irgendwenn en [b]Zellkern[/b]\n"
 "\n"
@@ -3242,6 +3341,17 @@ msgstr "Bode"
 msgid "INVERTED"
 msgstr "Invertiert"
 
+msgid "IN_LOOK_OF_A_HOME"
+msgstr ""
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_DESCRIPTION"
+msgstr "(nur bekannti Bereich werdet uufdeckt)"
+
+#, fuzzy
+msgid "IN_LOOK_OF_A_HOME_PROGRESS"
+msgstr "(nur bekannti Bereich werdet uufdeckt)"
+
 msgid "IN_PROTOTYPE"
 msgstr ""
 "Du spielsch d'Prototype vo spötere Stufene wo em Spiel enthalte sind.\n"
@@ -3275,6 +3385,13 @@ msgstr "Juli"
 
 msgid "JUNE"
 msgstr "Juni"
+
+msgid "JUST_A_FLESH_WOUND"
+msgstr ""
+
+#, fuzzy
+msgid "JUST_A_FLESH_WOUND_DESCRIPTION"
+msgstr "Fossildatei hett mer nöd chönne lösche"
 
 msgid "KEEP_MIGRATION"
 msgstr "Migration B'halte"
@@ -4170,6 +4287,14 @@ msgstr ""
 msgid "MICROBIAL_MASSACRE"
 msgstr ""
 
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES"
+msgstr "Makroskopische Editor wird g'ladde"
+
+#, fuzzy
+msgid "MICROSCOPIC_BIRDS_AND_BEES_DESCRIPTION"
+msgstr "Die Membran hett e Want, was en bessere allgemeine Schutz vor Schäde und insbesonderi physische Schäde büütet. Es wird weniger Energie benötigt, um die Form z'behalte, aber Ressource werdet dadur langsamer absorbiert und au d'Bewegig isch verlangsamt. [b] Zellulase chann die Wand verdaue [/b], was sie aafällig für Verschlinge dur Fressfiind macht."
+
 msgid "MICRO_BORG"
 msgstr ""
 
@@ -5055,10 +5180,6 @@ msgstr ""
 msgid "PAN_CAMERA_UP"
 msgstr ""
 
-#, fuzzy
-msgid "PASSED_FULFILLED_CONDITION"
-msgstr "und"
-
 msgid "PAST_DEVELOPERS"
 msgstr ""
 
@@ -5144,6 +5265,13 @@ msgstr ""
 msgid "PERCENTAGE_VALUE"
 msgstr ""
 
+msgid "PERFECTLY_PACKED"
+msgstr ""
+
+#, fuzzy
+msgid "PERFECTLY_PACKED_DESCRIPTION"
+msgstr "Lipase erlaubt es de Zelle die meiste Membrane z'verdaue. Dini Zelle produziert scho jetzt echli vo dem Enzym ohni Lysosome, aber wenn du dä Typ wählsch tuesch du d'Effizienz erhöhe."
+
 msgid "PERFECT_ADAPTATION_DESCRIPTION"
 msgstr ""
 
@@ -5219,6 +5347,20 @@ msgstr ""
 
 msgid "PLAYER_EXTINCT"
 msgstr ""
+
+msgid "PLAYER_NAME_CANNOT_BE_EMPTY"
+msgstr ""
+
+msgid "PLAYER_NAME_HAS_INVALID_NODE_CHARACTERS"
+msgstr ""
+
+#, fuzzy
+msgid "PLAYER_NAME_REQUIREMENTS"
+msgstr "Interne Name isch erforderlich"
+
+#, fuzzy
+msgid "PLAYER_NAME_TOO_LONG"
+msgstr "Beschriibig isch z'lang"
 
 msgid "PLAYER_RELATIVE_MOVEMENT"
 msgstr ""
@@ -5421,6 +5563,10 @@ msgstr ""
 
 msgid "REACH_GENERATION_15_WITH_A_SPECIES_PROGRESS"
 msgstr ""
+
+#, fuzzy
+msgid "REACH_MACROSCOPIC_STAGE"
+msgstr "Makroskopisch werde ({0}/{1})"
 
 msgid "REACH_MULTICELLULAR_STAGE"
 msgstr "Erreich s'Multizelluläre Stadium"
@@ -5641,6 +5787,10 @@ msgstr ""
 
 msgid "ROTATE_RIGHT"
 msgstr ""
+
+#, fuzzy
+msgid "ROTATE_TOOL_BUTTON_TOOLTIP"
+msgstr "Gahne in Editor und bearbeite dini Spezies"
 
 msgid "ROTATION_COLON"
 msgstr ""
@@ -6124,6 +6274,26 @@ msgstr ""
 #, fuzzy
 msgid "SPECIALIZATION_COLON"
 msgstr "Beschriibig:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST"
+msgstr "Beschriibig:"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_DESCRIPTION"
+msgstr "D'Fossildatei hett mer nöd schriibe chönne"
+
+#, fuzzy
+msgid "SPECIALIZATION_SPECIALIST_PROGRESS"
+msgstr "Beschriibig:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS"
+msgstr "Beschriibig:"
+
+#, fuzzy
+msgid "SPECIALIZED_WEAPONS_DESCRIPTION"
+msgstr "Zilie funktioniered ähnlich wie Flagelle, aber statt ine bestimmti Richtig en Aatrieb z'geh tüend si bi de Rotation helfe."
 
 #, fuzzy
 msgid "SPECIAL_CELL_TYPE_ORIGIN_CELL_TYPE_SELECTION_POPUP_TITLE"
@@ -6987,6 +7157,29 @@ msgstr ""
 msgid "TYPE_COLON"
 msgstr ""
 
+msgid "ULTIMATE_CELLULAR_FIREPOWER"
+msgstr ""
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_DESCRIPTION"
+msgstr "Zellulase ermöglicht's de Zelle e zellulosi Membran z'verdaue. Das erhöht d'Effizienz vom Prozess."
+
+#, fuzzy
+msgid "ULTIMATE_CELLULAR_FIREPOWER_PROGRESS"
+msgstr "Zellulase ermöglicht's de Zelle e zellulosi Membran z'verdaue. Das erhöht d'Effizienz vom Prozess."
+
+#, fuzzy
+msgid "ULTIMATE_COLONY"
+msgstr "Künschtler:"
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_DESCRIPTION"
+msgstr "Lipase erlaubt es de Zelle die meiste Membrane z'verdaue. Dini Zelle produziert scho jetzt echli vo dem Enzym ohni Lysosome, aber wenn du dä Typ wählsch tuesch du d'Effizienz erhöhe."
+
+#, fuzzy
+msgid "ULTIMATE_COLONY_PROGRESS"
+msgstr "Künschtler:"
+
 msgid "UNAPPLIED_MOD_CHANGES"
 msgstr ""
 
@@ -7131,6 +7324,13 @@ msgstr ""
 
 msgid "UNTITLED"
 msgstr ""
+
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR"
+msgstr ""
+
+#, fuzzy
+msgid "UNUSED_CELL_TYPE_IN_BODY_PLAN_ERROR_TITLE"
+msgstr "Neue Zelltyp erschaffe"
 
 msgid "UPGRADE_CILIA_PULL"
 msgstr ""
@@ -7778,6 +7978,9 @@ msgid "WIKI_FERROPLAST_STRATEGY"
 msgstr ""
 
 msgid "WIKI_FERROPLAST_UPGRADES"
+msgstr ""
+
+msgid "WIKI_FILEMELANOSOMEICONJPG"
 msgstr ""
 
 msgid "WIKI_FLAGELLUM_EFFECTS"
@@ -8915,6 +9118,13 @@ msgstr ""
 msgid "YOUTUBE_TOOLTIP"
 msgstr ""
 
+msgid "YOU_ANIMAL"
+msgstr ""
+
+#, fuzzy
+msgid "YOU_ANIMAL_DESCRIPTION"
+msgstr "D'schliimigi Innereie vo enere Zelle. S'Zytoplasma isch e grundleggendi Mischig us Ione, Proteine und andere Stoff wo i Wasser g'löst sind wo s'innere vode Zelle füllt. Eini vode Funktione wos macht isch [b]Glykolyse[/b], d'Umsetzig vo [thrive:compound type=\"glucose\"][/thrive:compound] zu [thrive:compound type=\"atp\"][/thrive:compound]. Für Zelle wo kei Organelle für komplexeri Metabolisme hend isch das d'Energie wo sie druff aagwiese sind. Es wird ebefalls dezue verwendet, Molekül ide Zelle z'spiichere und d'Zelle z'wachse."
+
 msgid "YOU_CAN_MAKE_PULL_REQUEST"
 msgstr ""
 
@@ -8929,6 +9139,10 @@ msgstr ""
 
 msgid "ZOOM_OUT"
 msgstr ""
+
+#, fuzzy
+#~ msgid "PASSED_FULFILLED_CONDITION"
+#~ msgstr "und"
 
 #~ msgid "ENERGY_BALANCE_TOOLTIP_PRODUCTION_WITH_REQUIREMENT"
 #~ msgstr ""

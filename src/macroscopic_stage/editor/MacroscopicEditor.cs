@@ -210,13 +210,21 @@ public partial class MacroscopicEditor : EditorBase<EditorAction, MacroscopicSta
         base.Undo();
     }
 
-    public bool IsNewCellTypeNameValid(string newName)
+    public string? GetNewCellTypeNameValidationError(string newName)
     {
-        // Name is invalid if it is empty or a duplicate
-        // TODO: should this ensure the name doesn't have trailing whitespace?
-        // If so, CellTemplate.UpdateNameIfValid should be updated as well
-        return !string.IsNullOrWhiteSpace(newName) && !EditedSpecies.ModifiableCellTypes.Any(c =>
-            c.CellTypeName.Equals(newName, StringComparison.InvariantCultureIgnoreCase));
+        if (!PlayerNameUtils.IsValidPlayerGivenName(newName, out var errorMessage))
+            return errorMessage;
+
+        if (!IsCellTypeNameUnique(newName))
+            return Localization.Translate("CELL_TYPE_NAME_ALREADY_EXISTS");
+
+        return null;
+    }
+
+    public bool IsCellTypeNameUnique(string name)
+    {
+        return !EditedSpecies.ModifiableCellTypes.Any(c =>
+            c.CellTypeName.Equals(name, StringComparison.InvariantCultureIgnoreCase));
     }
 
     public ToleranceResult CalculateRawTolerances(bool excludePositiveBuffs = false)
@@ -300,7 +308,7 @@ public partial class MacroscopicEditor : EditorBase<EditorAction, MacroscopicSta
         patchMapTab.OnNextTab = () => SetEditorTab(EditorTab.CellEditor);
         bodyPlanEditorTab.OnFinish = ForwardEditorComponentFinishRequest;
         cellEditorTab.OnNextTab = () => SetEditorTab(EditorTab.CellEditor);
-        cellEditorTab.ValidateNewCellTypeName = IsNewCellTypeNameValid;
+        cellEditorTab.ValidateNewCellTypeName = GetNewCellTypeNameValidationError;
 
         foreach (var editorComponent in GetAllEditorComponents())
         {
@@ -654,7 +662,7 @@ public partial class MacroscopicEditor : EditorBase<EditorAction, MacroscopicSta
         if (affectedACell)
         {
             GD.Print("Undone / redone action affected tissue types");
-            cellEditorTab.OnFinishEditing();
+            cellEditorTab.OnFinishEditing(false);
 
             // cellEditorTab.OnEditorSpeciesSetup(EditedBaseSpecies);
             bodyPlanEditorTab.OnTissueTypeEdited(cellTypeEditsHolder.GetOriginalType(selectedCellTypeToEdit));
@@ -668,7 +676,7 @@ public partial class MacroscopicEditor : EditorBase<EditorAction, MacroscopicSta
 
         var oldName = selectedCellTypeToEdit.CellTypeName;
 
-        cellEditorTab.OnFinishEditing();
+        cellEditorTab.OnFinishEditing(false);
 
         // Revert to the old name if the name is a duplicate
         if (EditedSpecies.ModifiableCellTypes.Any(c =>

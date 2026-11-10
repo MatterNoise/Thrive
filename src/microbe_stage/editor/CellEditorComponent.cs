@@ -25,9 +25,6 @@ public partial class CellEditorComponent :
     [Export]
     public bool IsMacroscopicEditor;
 
-    [Export]
-    public int MaxToleranceWarnings = 3;
-
     /// <summary>
     ///   Temporary hex memory for use by the main thread in this component
     /// </summary>
@@ -92,7 +89,7 @@ public partial class CellEditorComponent :
     private PanelContainer toleranceTab = null!;
 
     [Export]
-    private Container toleranceWarningContainer = null!;
+    private ToleranceWarningsPanel toleranceWarningsPanel = null!;
 
     [Export]
     private VBoxContainer partsSelectionContainer = null!;
@@ -161,9 +158,6 @@ public partial class CellEditorComponent :
 
     [Export]
     private AnimationPlayer tutorialAnimationPlayer = null!;
-
-    [Export]
-    private LabelSettings toleranceWarningsFont = null!;
 #pragma warning restore CA2213
 
     private OrganelleDefinition nucleus = null!;
@@ -1506,6 +1500,11 @@ public partial class CellEditorComponent :
         if (cost > Editor.MutationPoints && Editor.MutationPoints > 0)
         {
             int stepsToCutOff = (int)Math.Ceiling((cost - Editor.MutationPoints) / costPerStep);
+
+            // Rounded costs can require removing more steps than were requested. Stop at the original rigidity
+            // to avoid oscillating across it as the slider emits further value changes.
+            stepsToCutOff = Math.Min(stepsToCutOff, Math.Abs(desiredRigidity - previousRigidity));
+
             data.NewRigidity -= (desiredRigidity - previousRigidity > 0 ? 1 : -1) * stepsToCutOff /
                 Constants.MEMBRANE_RIGIDITY_SLIDER_TO_VALUE_RATIO;
 

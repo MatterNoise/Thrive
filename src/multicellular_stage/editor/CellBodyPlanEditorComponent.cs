@@ -14,9 +14,6 @@ public partial class CellBodyPlanEditorComponent :
 {
     public const ushort SERIALIZATION_VERSION = 12;
 
-    [Export]
-    public int MaxToleranceWarnings = 3;
-
     private static Vector3 microbeModelOffset = new(0, -0.1f, 0);
 
     private readonly Dictionary<string, CellTypeSelection> cellTypeSelectionButtons = new();
@@ -92,7 +89,7 @@ public partial class CellBodyPlanEditorComponent :
     private PanelContainer toleranceTab = null!;
 
     [Export]
-    private Container toleranceWarningContainer = null!;
+    private ToleranceWarningsPanel toleranceWarningsPanel = null!;
 
     [Export]
     private PanelContainer layoutTab = null!;
@@ -178,9 +175,6 @@ public partial class CellBodyPlanEditorComponent :
     private SpecialCellTypeUnsetPopup specialCellTypeUnsetPopup = null!;
 
     [Export]
-    private LabelSettings toleranceWarningsFont = null!;
-
-    [Export]
     private OptionButton reproductionMethodDropdown = null!;
 
     [Export]
@@ -242,6 +236,12 @@ public partial class CellBodyPlanEditorComponent :
 
     [Export]
     private CustomConfirmationDialog macroscopicConditionsView = null!;
+
+    [Export]
+    private CellLayoutBorderDisplay cellLayoutBorderDisplay = null!;
+
+    [Export]
+    private CellLayoutBorderDisplay hoveringCellBorderDisplay = null!;
 #pragma warning restore CA2213
 
     private string newName = "unset";
@@ -667,6 +667,12 @@ public partial class CellBodyPlanEditorComponent :
         else if (layoutPreviewActive && UsesManualPlayerLayout)
         {
             DisplayManualLayoutAdjacencyErrors();
+
+            if (MovingPlacedHex != null && !Editor.ShowHover)
+            {
+                hoveringCellBorderDisplay.HideBorders();
+                hoveringCellBorderDisplay.ClearCellTypeCache();
+            }
         }
         else if (forceUpdateCellGraphics)
         {
@@ -991,6 +997,14 @@ public partial class CellBodyPlanEditorComponent :
         tolerancesEditor.OnFinishEditing();
     }
 
+    public override void SetEditorWorldGuideObjectVisibility(bool shown)
+    {
+        base.SetEditorWorldGuideObjectVisibility(shown);
+
+        cellLayoutBorderDisplay.Visible = shown;
+        hoveringCellBorderDisplay.Visible = shown;
+    }
+
     public override bool CanFinishEditing(IEnumerable<EditorUserOverride> userOverrides)
     {
         var editorUserOverrides = userOverrides.ToList();
@@ -1236,6 +1250,9 @@ public partial class CellBodyPlanEditorComponent :
         UpdateSpecializationDisplay();
 
         UpdateSpecialCellTypeDisplays();
+
+        hoveringCellBorderDisplay.ClearCellTypeCache();
+        cellLayoutBorderDisplay.ClearCellTypeCache();
     }
 
     /// <summary>

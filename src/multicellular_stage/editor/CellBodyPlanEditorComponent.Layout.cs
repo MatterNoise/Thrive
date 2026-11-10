@@ -456,6 +456,11 @@ public partial class CellBodyPlanEditorComponent
             placedModels.RemoveAt(placedModels.Count - 1);
         }
 
+        cellLayoutBorderDisplay.DisplayCellLayoutBorders(cellPositions.Keys.ToList(), UsesManualPlayerLayout,
+            GetEditedCellDataIfEdited);
+        hoveringCellBorderDisplay.HideBorders();
+        hoveringCellBorderDisplay.ClearCellTypeCache();
+
         RecalculateFullLayoutGrowthOrderErrors();
         UpdateGrowthOrderNumbers();
         UpdateFinishButtonWarningVisibility();
@@ -548,20 +553,14 @@ public partial class CellBodyPlanEditorComponent
         // We do a manual fetch of the organelle positions here so that we have the latest data if the type is
         // edited
         var type = GetEditedCellDataIfEdited(cell.Data!.ModifiableCellType);
-        foreach (var organelle in type.ModifiableOrganelles)
-        {
-            foreach (var organelleHex in organelle.Definition.GetRotatedHexes(organelle.Orientation))
-            {
-                var position = organelleHex + organelle.Position;
-                positions.Add(position);
-            }
-        }
 
         // The automatic layout is generated from the cell types' current, unshifted organelle positions. Applying
         // the origin shift there would therefore validate a different layout than the one generated. Manual layouts
         // need the shift because it is applied when the species leaves the editor.
         // So we only conditionally apply the origin shift.
-        Hex originShift = performOriginShift ? CalculateExpectedLayoutShift(type.ModifiableOrganelles) : new Hex(0, 0);
+        Hex originShift = performOriginShift ?
+            MulticellularLayoutHelpers.CalculateExpectedLayoutShift(type.ModifiableOrganelles) :
+            new Hex(0, 0);
 
         positions.Clear();
 
@@ -570,7 +569,7 @@ public partial class CellBodyPlanEditorComponent
         {
             foreach (var organelleHex in organelle.Definition.GetRotatedHexes(organelle.Orientation))
             {
-                // And now we can calculate global final positions
+                // Here we calculate the global final positions
                 var globalPosition = cell.Position +
                     Hex.RotateAxialNTimes(organelleHex + organelle.Position - originShift, cell.Orientation);
 
@@ -597,7 +596,7 @@ public partial class CellBodyPlanEditorComponent
 
         // We have to run reposition to origin equivalent logic here! as otherwise the layout might not be valid
         // after applying edits
-        Hex originShift = CalculateExpectedLayoutShift(type.ModifiableOrganelles);
+        Hex originShift = MulticellularLayoutHelpers.CalculateExpectedLayoutShift(type.ModifiableOrganelles);
 
         // Then apply the origin shift
         for (int i = 0; i < positions.Count; ++i)
@@ -606,15 +605,6 @@ public partial class CellBodyPlanEditorComponent
         }
 
         return positions;
-    }
-
-    private Hex CalculateExpectedLayoutShift(IReadOnlyList<IReadOnlyOrganelleTemplate> localOrganelles)
-    {
-        // Origin shift here. This is done because only after exiting the editor are things layout shifted, which means
-        // that we need to pre-emptively apply a layout shift here so that the final results match what is shown here.
-        var center = MicrobeInternalCalculations.CalculateCenterOfMass(localOrganelles);
-
-        return Hex.CartesianToAxial(center);
     }
 
     /// <summary>
@@ -855,6 +845,9 @@ public partial class CellBodyPlanEditorComponent
         ShowCellTypeInModelHolder(model, type, Hex.AxialToCartesian(new Hex(q, r)) + microbeModelOffset,
             moving.Orientation);
         model.Visible = true;
+
+        hoveringCellBorderDisplay.DisplayHoveringCellBorder(MovingPlacedHex, new Hex(q, r), UsesManualPlayerLayout,
+            GetEditedCellDataIfEdited);
     }
 
     private void ApplyManualMove(Hex position)
@@ -928,6 +921,12 @@ public partial class CellBodyPlanEditorComponent
         RecalculateWrongGrowthOrderCells();
         UpdateGrowthOrderNumbers();
         UpdateArrow();
+
+        cellLayoutBorderDisplay.HideBorders();
+        cellLayoutBorderDisplay.ClearCellTypeCache();
+
+        hoveringCellBorderDisplay.HideBorders();
+        hoveringCellBorderDisplay.ClearCellTypeCache();
     }
 
     private void OnReapplyAutomaticLayoutPressed()

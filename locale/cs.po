@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-30 15:45+0200\n"
+"POT-Creation-Date: 2026-11-12 17:15+0200\n"
 "PO-Revision-Date: 2026-10-23 04:23+0000\n"
 "Last-Translator: Tibor Šťastný <tiborstgame2@seznam.cz>\n"
 "Language-Team: Czech <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/cs/>\n"
@@ -380,6 +380,14 @@ msgstr "(cena organel, membrán a jiných věcí v editoru)"
 msgid "AUTOSAVE_DURING_THE_GAME"
 msgstr "Automatické ukládání během hry"
 
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER"
+msgstr "Limit využití růstových sloučenin"
+
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER_TOOLTIP"
+msgstr "(zapnutí limituje rychlost růstu, při vypnutí na rychlost růstu mají efekt pouze dostupné sloučeniny)"
+
 msgid "AUTO_EVO"
 msgstr "Automatická Evoluce"
 
@@ -728,6 +736,9 @@ msgstr "velmi málo"
 msgid "CAUTIOUS"
 msgstr "Obezřetnost"
 
+msgid "CAVITY_CELLS_NEED_NEIGHBOURS"
+msgstr ""
+
 msgid "CELL"
 msgstr "Buňka"
 
@@ -782,6 +793,15 @@ msgstr ""
 msgid "CELL_BODY_MANUAL_LAYOUT_INSTRUCTIONS"
 msgstr ""
 
+msgid "CELL_IS_CAVITY"
+msgstr ""
+
+#, fuzzy
+msgid "CELL_IS_CAVITY_TOOLTIP"
+msgstr ""
+"Otáčecí schopnost buňky. Větší buňky se otáčí pomaleji, ale s přidáním brv jim to jde lépe.\n"
+"Umístění organel ovlivňuje schopnost buňky se otáčet.  Čím dál jsou umístěny od středu buňky, tím se buňka hůře otáčí."
+
 #, fuzzy
 msgid "CELL_LAYOUT_AVERAGE_SPECIALIZATION_TOOLTIP"
 msgstr ""
@@ -790,6 +810,10 @@ msgstr ""
 
 msgid "CELL_LAYOUT_IS_BEING_CALCULATED"
 msgstr ""
+
+#, fuzzy
+msgid "CELL_SIZE"
+msgstr "Buňky"
 
 #, fuzzy
 msgid "CELL_SPECIALIZATION_TOOLTIP"
@@ -1017,6 +1041,14 @@ msgstr "Rotace:"
 #, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "(zapnutí limituje rychlost růstu, při vypnutí na rychlost růstu mají efekt pouze dostupné sloučeniny)"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_ROTATION_INCREASE"
+msgstr "Rotace:"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_SPEED_INCREASE"
+msgstr "Rotace:"
 
 msgid "COLOUR"
 msgstr "Barva"
@@ -2670,6 +2702,9 @@ msgstr "Ohnivé toxiny"
 
 msgid "FIRE_TOXIN_TOOLTIP"
 msgstr "Vypal toxinové projektily, abys poškodil zasažené buňky"
+
+msgid "FIRST_CELL_CANNOT_BE_CAVITY"
+msgstr ""
 
 msgid "FLAGELLUM"
 msgstr "Bičík"
@@ -5320,6 +5355,10 @@ msgstr "Axon"
 msgid "ORGANELLE_AXON_DESCRIPTION"
 msgstr "Pily (v jednotném čísle: pilus) se nacházejí na povrchu mnoha mikroorganismů a připomínají jemné chloupky. Na povrchu mikroorganismu se mohou nacházet desítky až stovky pilusů, které slouží k několika účelům, včetně predátorské role. Patogenní mikroorganismy využívají pili k virulenci buď k přichycení a vazbě na tkáně hostitele, nebo k proniknutí přes vnější membránu a získání přístupu do cytoplazmy. Existuje mnoho podobných pili, které však nejsou evolučně příbuzné a vznikly konvergentní evolucí. Jeden organismus může mít schopnost exprimovat několik typů pili a ty, které jsou přítomny na povrchu, se neustále mění a nahrazují."
 
+#, fuzzy
+msgid "ORGANELLE_AXON_PROCESSES_DESCRIPTION"
+msgstr "Tímto bodneš ostatní buňky."
+
 msgid "ORGANELLE_CATEGORY_MACROSCOPIC"
 msgstr "Makroskopický"
 
@@ -6459,6 +6498,34 @@ msgstr "Pasivní příjem pokroku reprodukce"
 msgid "SFX_VOLUME"
 msgstr "Hlasitost SFX"
 
+#, fuzzy
+msgid "SHADOW_FILTERING"
+msgstr "Anizotropní filtrování:"
+
+msgid "SHADOW_FILTERING_OPTION_HARD"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_HIGH"
+msgstr "Připoj se na náš komunitní Discord server"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_LOW"
+msgstr ""
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_MEDIUM"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_ULTRA"
+msgstr "Připoj se na náš komunitní Discord server"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_VERY_LOW"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_RESOLUTION"
+msgstr "Automatické ({0}x{1})"
+
 msgid "SHIFT"
 msgstr "Shift"
 
@@ -7408,6 +7475,20 @@ msgstr "Zobrazit / skrýt sloučeniny"
 
 msgid "TOLERANCE_RANGE_LABEL"
 msgstr "Flexibilita:"
+
+#, fuzzy
+msgid "TOLERANCE_UPKEEP_COST"
+msgstr ""
+"[b]Živočich[/b]\n"
+"{0}:{1}\n"
+"[b]Generace[/b]\n"
+"{2}\n"
+"[b]Populace[/b]\n"
+"{3}\n"
+"[b]Barva[/b]\n"
+"#{4}\n"
+"[b]Chování[/b]\n"
+"{5}"
 
 msgid "TOOLS"
 msgstr "Nástroje"

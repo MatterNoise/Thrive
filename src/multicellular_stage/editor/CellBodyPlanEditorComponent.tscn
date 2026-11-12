@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://ctqyvjb6wvagi" path="res://src/multicellular_stage/editor/CellBodyPlanEditorComponent.cs" id="1"]
 [ext_resource type="PackedScene" uid="uid://ipvxtakaph16" path="res://src/multicellular_stage/editor/CellPopupMenu.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://0hb8nq18ljr8" path="res://src/microbe_stage/editor/LightConfigurationPanel.tscn" id="3_nj0t6"]
+[ext_resource type="LabelSettings" uid="uid://ddl68802hf35" path="res://src/gui_common/fonts/Body-Bold-Normal-Shadow.tres" id="4_5baas"]
 [ext_resource type="FontFile" uid="uid://b62thy1er4r08" path="res://assets/fonts/Lato-Bold.ttf" id="4_h03u7"]
 [ext_resource type="Theme" uid="uid://b4cx0o110g4b6" path="res://src/gui_common/thrive_theme.tres" id="5"]
 [ext_resource type="PackedScene" uid="uid://dad6elomccmtr" path="res://src/microbe_stage/editor/ToleranceWarningsPanel.tscn" id="6_cmivo"]
@@ -431,6 +432,7 @@ macroscopicConditionsView = NodePath("MacroscopicConditionsPopup")
 hexPositionEffectsContainer = NodePath("AdjacencyFactorsContainer")
 hexEffectFont = ExtResource("4_h03u7")
 floatingLabelContainer = NodePath("GrowthOrderNumberContainer")
+growthOrderLabelSettings = ExtResource("4_5baas")
 islandPopup = NodePath("IslandError")
 componentBottomLeftButtons = NodePath("EditorComponentBottomLeftButtons")
 mutationPointsBar = NodePath("LeftPanel/MainPanel/VBoxContainer/MarginContainer2/MutationPointsBar")
@@ -463,10 +465,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -170.0
+offset_left = -218.0
 offset_top = 10.0
-offset_right = 170.0
-offset_bottom = 57.0
+offset_right = 278.0
+offset_bottom = 64.0
 grow_horizontal = 2
 
 [node name="LightConfiguration" parent="TopPanel" unique_id=890941162 instance=ExtResource("3_nj0t6")]
@@ -1086,9 +1088,8 @@ autowrap_mode = 3
 
 [node name="EditorComponentBottomLeftButtons" parent="." unique_id=1138987653 instance=ExtResource("13")]
 layout_mode = 1
-offset_top = -56.0
+offset_top = -53.0
 offset_right = 641.0
-offset_bottom = -1.0
 grow_vertical = 0
 ShowNewButton = false
 
@@ -1098,10 +1099,10 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -158.0
-offset_top = -51.0
+offset_left = -162.0
+offset_top = -50.0
 offset_right = -10.0
-offset_bottom = -10.0
+offset_bottom = -9.0
 grow_horizontal = 0
 grow_vertical = 0
 
@@ -1340,6 +1341,7 @@ IsMulticellular = true
 [connection signal="OnResetClicked" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Reproduction/ScrollContainer/MarginContainer/VBoxContainer/SexualOptions/SecondGameteSelection/CellTypeMakerButton" to="." method="OnSpecialCellTypeResetClicked" binds= [2]]
 [connection signal="toggled" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Reproduction/ScrollContainer/MarginContainer/VBoxContainer/SexualOptions/SecondGameteSelection/PlayerGameteB" to="." method="OnPlayerSetGameteB"]
 [connection signal="OnGrowthOrderChanged" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Growth/ScrollContainer/MarginContainer/GrowthContainer/GrowthOrderPicker" to="." method="OnGrowthOrderChanged"]
+[connection signal="OrderAutoCalculate" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Growth/ScrollContainer/MarginContainer/GrowthContainer/GrowthOrderPicker" to="." method="OnAutoCalculateGrowthOrderPressed"]
 [connection signal="OrderReset" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Growth/ScrollContainer/MarginContainer/GrowthContainer/GrowthOrderPicker" to="." method="OnResetGrowthOrderPressed"]
 [connection signal="toggled" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Growth/ScrollContainer/MarginContainer/GrowthContainer/Coordinates" to="." method="OnGrowthOrderCoordinatesToggled"]
 [connection signal="OnTolerancesChanged" from="LeftPanel/MainPanel/VBoxContainer/MarginContainer/EditingPanel/Tolerance/ScrollContainer/MarginContainer/TolerancesEditor" to="." method="OnTolerancesEditorChangedData"]
@@ -1360,6 +1362,7 @@ IsMulticellular = true
 [connection signal="Confirmed" from="NewCellTypeSetup" to="." method="OnNewCellTypeConfirmed"]
 [connection signal="text_changed" from="NewCellTypeSetup/VBoxContainer2/NewName" to="." method="OnNewCellTypeNameChanged"]
 [connection signal="text_submitted" from="NewCellTypeSetup/VBoxContainer2/NewName" to="." method="OnNewCellTextAccepted"]
+[connection signal="CavityToggled" from="CellPopupMenu" to="." method="OnCellCavityToggled"]
 [connection signal="DeletePressed" from="CellPopupMenu" to="." method="OnDeletePressed"]
 [connection signal="ModifyPressed" from="CellPopupMenu" to="." method="OnModifyPressed"]
 [connection signal="MovePressed" from="CellPopupMenu" to="." method="OnMovePressed"]

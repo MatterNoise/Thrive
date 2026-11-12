@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-30 15:45+0200\n"
+"POT-Creation-Date: 2026-11-12 17:15+0200\n"
 "PO-Revision-Date: 2026-05-13 03:56+0000\n"
 "Last-Translator: Deleted User <noreply+56@weblate.org>\n"
 "Language-Team: Serbian (Cyrillic script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Cyrl/>\n"
@@ -411,6 +411,14 @@ msgstr "Цена осморегулације"
 msgid "AUTOSAVE_DURING_THE_GAME"
 msgstr "Аутоматско чување током игре"
 
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER"
+msgstr "ПОТВРДИ"
+
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER_TOOLTIP"
+msgstr "Број популације од {0} променио се за {1} због: {2}"
+
 msgid "AUTO_EVO"
 msgstr "Аутоматска-Еволуција"
 
@@ -794,6 +802,9 @@ msgstr ""
 msgid "CAUTIOUS"
 msgstr ""
 
+msgid "CAVITY_CELLS_NEED_NEIGHBOURS"
+msgstr ""
+
 #, fuzzy
 msgid "CELL"
 msgstr "Целулоза"
@@ -853,12 +864,23 @@ msgstr ""
 msgid "CELL_BODY_MANUAL_LAYOUT_INSTRUCTIONS"
 msgstr ""
 
+msgid "CELL_IS_CAVITY"
+msgstr ""
+
+#, fuzzy
+msgid "CELL_IS_CAVITY_TOOLTIP"
+msgstr "Наставити"
+
 #, fuzzy
 msgid "CELL_LAYOUT_AVERAGE_SPECIALIZATION_TOOLTIP"
 msgstr "Наставити"
 
 msgid "CELL_LAYOUT_IS_BEING_CALCULATED"
 msgstr ""
+
+#, fuzzy
+msgid "CELL_SIZE"
+msgstr "Целулоза"
 
 #, fuzzy
 msgid "CELL_SPECIALIZATION_TOOLTIP"
@@ -1109,6 +1131,14 @@ msgstr "популација:"
 #, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "Број популације од {0} променио се за {1} због: {2}"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_ROTATION_INCREASE"
+msgstr "популација:"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_SPEED_INCREASE"
+msgstr "популација:"
 
 msgid "COLOUR"
 msgstr "Боја"
@@ -2797,6 +2827,9 @@ msgstr "Ватрени токсин"
 #, fuzzy
 msgid "FIRE_TOXIN_TOOLTIP"
 msgstr "Додајте ново везивање тастера"
+
+msgid "FIRST_CELL_CANNOT_BE_CAVITY"
+msgstr ""
 
 msgid "FLAGELLUM"
 msgstr "Бич"
@@ -5585,6 +5618,10 @@ msgid "ORGANELLE_AXON_DESCRIPTION"
 msgstr "Избодите друге ћелије са ово."
 
 #, fuzzy
+msgid "ORGANELLE_AXON_PROCESSES_DESCRIPTION"
+msgstr "Избодите друге ћелије са ово."
+
+#, fuzzy
 msgid "ORGANELLE_CATEGORY_MACROSCOPIC"
 msgstr "Поставите органелу"
 
@@ -6774,6 +6811,33 @@ msgstr "Број популације од {0} променио се за {1} з
 msgid "SFX_VOLUME"
 msgstr "Том од звучних ефеката"
 
+msgid "SHADOW_FILTERING"
+msgstr ""
+
+msgid "SHADOW_FILTERING_OPTION_HARD"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_HIGH"
+msgstr "Додајте ново везивање тастера"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_LOW"
+msgstr ""
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_MEDIUM"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_ULTRA"
+msgstr "Додајте ново везивање тастера"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_VERY_LOW"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_RESOLUTION"
+msgstr "Резолуција:"
+
 msgid "SHIFT"
 msgstr "Shift"
 
@@ -7782,6 +7846,10 @@ msgstr "Додајте ново везивање тастера"
 
 msgid "TOLERANCE_RANGE_LABEL"
 msgstr ""
+
+#, fuzzy
+msgid "TOLERANCE_UPKEEP_COST"
+msgstr "Врсте Присутне"
 
 msgid "TOOLS"
 msgstr "Алати"

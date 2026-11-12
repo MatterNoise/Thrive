@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-10-30 15:45+0200\n"
+"POT-Creation-Date: 2026-11-12 17:15+0200\n"
 "PO-Revision-Date: 2026-10-29 08:21+0000\n"
 "Last-Translator: Alice König <alice.purple-rose@outlook.com>\n"
 "Language-Team: German <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/de/>\n"
@@ -403,6 +403,14 @@ msgstr "(Prozentsatz der Populationsveränderung, die Auto-Evo auf Spieler-Spezi
 msgid "AUTOSAVE_DURING_THE_GAME"
 msgstr "Automatisches speichern während des Spieles"
 
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER"
+msgstr "Wachstums-Reihenfolge"
+
+#, fuzzy
+msgid "AUTO_CALCULATE_GROWTH_ORDER_TOOLTIP"
+msgstr "(Aktivierung beschränkt die Wachstums-Geschwindigkeit; Deaktivierung lässt nur die verfügbaren Substanzen das Wachstum beeinflussen)"
+
 msgid "AUTO_EVO"
 msgstr "Auto-Evo"
 
@@ -744,6 +752,9 @@ msgstr "sehr wenig"
 msgid "CAUTIOUS"
 msgstr "Vorsichtig"
 
+msgid "CAVITY_CELLS_NEED_NEIGHBOURS"
+msgstr ""
+
 msgid "CELL"
 msgstr "Zelle"
 
@@ -798,6 +809,17 @@ msgstr ""
 msgid "CELL_BODY_MANUAL_LAYOUT_INSTRUCTIONS"
 msgstr ""
 
+msgid "CELL_IS_CAVITY"
+msgstr ""
+
+#, fuzzy
+msgid "CELL_IS_CAVITY_TOOLTIP"
+msgstr ""
+"Eine Zelle auf weniger Organellentypen zu spezialisieren, gewährt einen Bonus auf die Effektivität aller Organellen dieser Zelle.\n"
+"Der aktuelle Bonus beträgt {0}% (Der maximale Bonus erhöht sich mit der Zellgröße bis zu {3} Hexagonen.)\n"
+"Der aktuelle Bonus wird gewährt, da {1} {2} Hexagone vorhanden sind.\n"
+"Der Bonus erhöht sich, wenn mehr Organellen des selben Typs platziert werden und andere Organellen entfernt werden."
+
 #, fuzzy
 msgid "CELL_LAYOUT_AVERAGE_SPECIALIZATION_TOOLTIP"
 msgstr ""
@@ -806,6 +828,10 @@ msgstr ""
 
 msgid "CELL_LAYOUT_IS_BEING_CALCULATED"
 msgstr ""
+
+#, fuzzy
+msgid "CELL_SIZE"
+msgstr "Zellen"
 
 msgid "CELL_SPECIALIZATION_TOOLTIP"
 msgstr ""
@@ -1054,6 +1080,14 @@ msgstr "Drehung:"
 #, fuzzy
 msgid "COLONY_GROWTH_ORDER_EXPLANATION"
 msgstr "(Aktivierung beschränkt die Wachstums-Geschwindigkeit; Deaktivierung lässt nur die verfügbaren Substanzen das Wachstum beeinflussen)"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_ROTATION_INCREASE"
+msgstr "Drehung:"
+
+#, fuzzy
+msgid "COLONY_ORGANELLE_SPEED_INCREASE"
+msgstr "Drehung:"
 
 msgid "COLOUR"
 msgstr "Farbe"
@@ -2671,6 +2705,9 @@ msgstr "Gift schießen"
 
 msgid "FIRE_TOXIN_TOOLTIP"
 msgstr "Giftprojektil abschießen und Zielzellen beschädigen"
+
+msgid "FIRST_CELL_CANNOT_BE_CAVITY"
+msgstr ""
 
 msgid "FLAGELLUM"
 msgstr "Geißeln"
@@ -5216,6 +5253,10 @@ msgstr "Axon"
 msgid "ORGANELLE_AXON_DESCRIPTION"
 msgstr "Axone sind die Nervenfasern, die Neuronen zur Vernetzung und Kommunikation untereinander verwenden. Wenn diese Organellen platziert werden, ändert sich der Zelltyp auf Hirngewebe."
 
+#, fuzzy
+msgid "ORGANELLE_AXON_PROCESSES_DESCRIPTION"
+msgstr "Steche damit andere Zellen."
+
 msgid "ORGANELLE_CATEGORY_MACROSCOPIC"
 msgstr "Makroskopisch"
 
@@ -6355,6 +6396,34 @@ msgstr "Passiven Reproduktionsfortschritt erhalten"
 msgid "SFX_VOLUME"
 msgstr "Effektlautstärke"
 
+#, fuzzy
+msgid "SHADOW_FILTERING"
+msgstr "Anisotropischer Filter:"
+
+msgid "SHADOW_FILTERING_OPTION_HARD"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_HIGH"
+msgstr "Exportiere die Daten aller Welten im CSV-Format (durch Kommas getrennte Werte)"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_LOW"
+msgstr ""
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_MEDIUM"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_FILTERING_OPTION_SOFT_ULTRA"
+msgstr "Exportiere die Daten aller Welten im CSV-Format (durch Kommas getrennte Werte)"
+
+msgid "SHADOW_FILTERING_OPTION_SOFT_VERY_LOW"
+msgstr ""
+
+#, fuzzy
+msgid "SHADOW_RESOLUTION"
+msgstr "automatisch ({0}x{1})"
+
 msgid "SHIFT"
 msgstr "Shift"
 
@@ -7304,6 +7373,20 @@ msgstr "Toleranzen werden von manchen Organellen positiv oder negativ beeinfluß
 
 msgid "TOLERANCE_RANGE_LABEL"
 msgstr "Flexibilität:"
+
+#, fuzzy
+msgid "TOLERANCE_UPKEEP_COST"
+msgstr ""
+"[b]Spezies[/b]\n"
+"  {0}:{1}\n"
+"[b]Generation[/b]\n"
+"  {2}\n"
+"[b]Bevölkerung[/b]\n"
+"  {3}\n"
+"[b]Farbe[/b]\n"
+"  #{4}\n"
+"[b]Verhalten[/b]\n"
+"  {5}"
 
 msgid "TOOLS"
 msgstr "Werkzeuge"
